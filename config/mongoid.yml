@@ -1,0 +1,18 @@
+development:
+  clients:
+    default:
+      database: test_development
+      hosts:
+        - mongo:27018
+        # - 192.168.1.43:27017
+      options:
+  options:
+
+test:
+  clients:
+    default:
+      database: test_test
+      hosts:
+        - mongotest:27018
+      options:
+  options:
